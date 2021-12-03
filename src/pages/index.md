@@ -30,25 +30,25 @@ setup: |
 </BannerSection>
 
 <BulletpointsSection>
-  <BulletpointLayout delay={0} icon="/assets/book.svg">
+  <BulletpointLayout delay={0} icon="/public/assets/book.svg">
     **Learn**
     ---------------
     Learn Rholang and RChain development through our workstudies and bootcamps.
   </BulletpointLayout>
 
-  <BulletpointLayout delay={100} icon="/assets/code.svg">
+  <BulletpointLayout delay={100} icon="/public/assets/code.svg">
     **Contribute**
     ---------------
     Apply the experience and skills learnt during our workstudy sessions to existing projects.
   </BulletpointLayout>
 
-  <BulletpointLayout delay={200} icon="/assets/money.svg">
+  <BulletpointLayout delay={200} icon="/public/assets/money.svg">
     **Earn**
     ---------------
     Through our leaderless approach, we collective reward ourselves in a fair manner.
   </BulletpointLayout>
 
-  <BulletpointLayout delay={300} icon="/assets/wallet.svg">
+  <BulletpointLayout delay={300} icon="/public/assets/wallet.svg">
     **Fund**
     ---------------
     You can also contribute to open source projects building by being one of our sponsors.
@@ -67,7 +67,7 @@ setup: |
 </MissionSection>
 
 <FeaturesSection>
-  <FeatureLayout image="/assets/play.svg">
+  <FeatureLayout image="/public/assets/play.svg">
     About <span class="text-muted"><span style="color: #A93226;">**RChain**</span> Developers Cooperation.</span>
     ===============
     <Markdown >
@@ -77,7 +77,7 @@ setup: |
 
   ---
 
-  <FeatureLayout image="/assets/hand.svg" flip={true}>
+  <FeatureLayout image="/public/assets/hand.svg" flip={true}>
     Support the Open Web <span class="text-muted">and Influence its Future</span>
     ===============
     <Markdown >
@@ -88,7 +88,7 @@ setup: |
 
   ---
 
-  <FeatureLayout image="/assets/collab.svg">
+  <FeatureLayout image="/public/assets/collab.svg">
     Existing <span class="text-muted">Problem</span>
     ===============
     <Markdown >
@@ -98,7 +98,7 @@ setup: |
 
   ---
 
-  <FeatureLayout image="/assets/teamwork.svg" flip={true}>
+  <FeatureLayout image="/public/assets/teamwork.svg" flip={true}>
       Our Collective <span class="text-muted">Solution</span>
       ===============
       <Markdown >
