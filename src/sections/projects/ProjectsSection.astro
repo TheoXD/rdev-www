@@ -1,8 +1,4 @@
 ---
-import RGov from './rgov/index.astro';
-import RChainWallet from './rchainwallet/index.astro';
-import Bootcamp from './bootcamp/index.astro';
-
 import ProjectSectionLayout from './ProjectSectionLayout.astro';
 import ProjectLayout from './ProjectLayout.astro';
 
@@ -17,7 +13,6 @@ import projects from "../../assets/projects.json";
       {
         projects.children.map(
             (project : any) => {
-              //const project = projects[key];
               return (
                 <ProjectLayout project={project} client:visible>
                   <h2 slot="title"><b style="color: #A93226;">{project.title.split(" ")[0]} </b>{project.title.substr(project.title.indexOf(" ") + 1)}</h2>

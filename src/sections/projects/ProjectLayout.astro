@@ -13,7 +13,7 @@ const onClick = () => {
         <slot name="title" />
         <slot name="description" />
         { project.donationRevAddr ?
-          <p>Donate REV</p>
+          <p class="DonateLabel">Donate REV</p>
           <CopyText text={project.donationRevAddr} client:visible/>
           :
           null
@@ -31,5 +31,10 @@ const onClick = () => {
 <style>
   .Project {
     width: 100%;
+  }
+
+  .DonateLabel {
+    margin-bottom: 0;
+    margin-left: 0.6em;
   }
 </style>

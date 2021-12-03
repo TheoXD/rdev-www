@@ -97,8 +97,7 @@ a:hover {
 
 .hero-content {
   height: 100vh;
-  background: rgb(0,0,0);
-  background: linear-gradient(86deg, rgba(0,0,0,1) 75%, rgba(169,50,38,1) 100%);
+  background: rgb(48 48 55);
 }
 
 .hero-small-text {

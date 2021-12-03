@@ -4,7 +4,7 @@ description: ''
 layout: ../layouts/MainLayout.astro
 setup: |
   import {Markdown} from 'astro/components';
-  import FooterLayout from '../components/FooterLayout.astro';
+  import FooterLayout from '../layouts/FooterLayout.astro';
 
   import BannerSection from '../sections/banner/BannerSection.astro';
   import Banner from '../sections/banner/Banner.astro';
